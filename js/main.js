@@ -1,0 +1,17 @@
+$(document).ready(function(){
+
+    $nav=$('.nav');
+    $toggleCollapse=$('.toggle-collapse');
+
+    /**click vent on toggle menu */
+    $toggleCollapse.click(function(){
+        $nav.toggleClass('collapse');
+    });
+
+
+
+//owl-crousel for blog
+
+$('.owl-carousel').owlCarousel();
+
+});
