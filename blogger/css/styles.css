@@ -2,7 +2,7 @@ html,body{
     margin:0%;
     box-sizing: border-box;
     overflow-x: hidden;
-}
+} 
 :root{ 
     /*theme font family*/
     --abel: 'Abel', sans-serif;
@@ -450,7 +450,7 @@ footer.footer .instagram div > img{
 footer.footer .follow div i{
     padding:0 0.4rem;
     color:var(--white);
-}
+} 
 footer.footer .rights{
     justify-content: center;
     

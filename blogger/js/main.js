@@ -48,8 +48,8 @@ else if($(window).width()<=720){
         responsive:responsive,
         navText:[$('.owl-navigation .owl-nav-prev'),$('.owl-navigation .owl-nav-next')]
     });
-}
-
+} 
+AOS.init();
 //click to go above
 
 $('.move-up span').click(function(){
